@@ -1,0 +1,16 @@
+.App{
+    padding: 30px;
+}
+.userCard, .greetings, .randomNumber, .box{
+    display: flex;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: solid 1px black;
+}
+.userCard ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
